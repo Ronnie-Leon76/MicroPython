@@ -83,5 +83,3 @@ while True:
         print('Failed to read from the sensors.')
         
 
-
-while True
