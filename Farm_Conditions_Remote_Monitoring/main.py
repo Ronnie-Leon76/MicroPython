@@ -64,7 +64,7 @@ def web_page(temp_c, temp_f, humid, moisture_status):
   </head>
   <body>
     <header>
-      <h1 >Remote Farm Condition Monitoring System</h1>
+      <h1 >Remote Farm Conditions Monitoring System</h1>
     </header>
     <main>
         <div class="container d-flex justify-container-center">
