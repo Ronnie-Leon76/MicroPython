@@ -53,9 +53,9 @@ while True:
             moisture_level = "Too Dry"
             print("Status: Soil is too dry - time to water!")
         sleep(2)
-        moisture_sensor_pin.measure()
-        temp_c = moisture_sensor_pin.temperature()
-        hum = moisture_sensor_pin.humidity()
+        dht_sensor.measure()
+        temp_c = dht_sensor.temperature()
+        hum = dht_sensor.humidity()
         temp_f = temp * (9/5) + 32.0
         print('Temperature: %3.1f C' %temp_c)
         print('Temperature: %3.1f F' %temp_f)
